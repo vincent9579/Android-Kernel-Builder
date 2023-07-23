@@ -1,0 +1,38 @@
+{
+    "kernelSource": {
+      "name": "picasso-test",
+      "repo": "https://github.com/EndCredits/kernel_xiaomi_sm7250",
+      "branch": "android-4.19",
+      "device": "picasso",
+      "defconfig": "vendor/picasso_user_defconfig"
+    },
+    "withKernelSU": true,
+    "toolchains": [
+        {
+            "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784d.tar.gz",
+            "name": "clang",
+            "binPath": ["./bin"]
+          },
+          {
+            "url": "https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/+archive/refs/tags/android-12.1.0_r27.tar.gz",
+            "name": "gcc",
+            "binPath": ["bin"]
+          }
+    ],
+    "ccache": true,
+    "params": {
+        "ARCH": "arm64",
+        "CC": "clang/bin/clang",
+        "externalCommand": {
+            "CLANG_TRIPLE": "gcc/bin/aarch64-linux-android-",
+            "CROSS_COMPILE": "gcc/bin/aarch64-linux-android-",
+            "CROSS_COMPILE_ARM32": "gcc/bin/arm-linux-androideabi-"
+        }
+    },
+    "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/EndCredits/AnyKernel3",
+      "branch": "picasso"
+    }
+  }
