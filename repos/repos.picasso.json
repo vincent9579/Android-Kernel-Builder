@@ -30,8 +30,8 @@
         }
     },
     "AnyKernel3": {
-      "use": true,
-      "release": true,
+      "use": false,
+      "release": false,
       "repo": "https://github.com/EndCredits/AnyKernel3",
       "branch": "picasso"
     }
