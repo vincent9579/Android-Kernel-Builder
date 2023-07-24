@@ -1,9 +1,9 @@
 [
     {
         "kernelSource": {
-        "name": "Driftwood-2.1.0",
+        "name": "Driftwood-2.2.0",
         "repo": "https://github.com/EndCredits/kernel_xiaomi_sm7250",
-        "branch": "android-4.19",
+        "branch": "android-4.19-rom",
         "device": "picasso",
         "defconfig": "vendor/picasso_user_defconfig"
         },
@@ -40,9 +40,9 @@
     },
     {
         "kernelSource": {
-        "name": "Driftwood-2.1.0-ksu",
+        "name": "Driftwood-2.2.0-ksu",
         "repo": "https://github.com/EndCredits/kernel_xiaomi_sm7250",
-        "branch": "android-4.19",
+        "branch": "android-4.19-rom",
         "device": "picasso",
         "defconfig": "vendor/picasso_user_defconfig"
         },
