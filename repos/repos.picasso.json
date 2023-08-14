@@ -25,8 +25,8 @@
             "ARCH": "arm64",
             "CC": "clang/bin/clang",
             "externalCommand": {
-                "CLANG_TRIPLE": "gcc/bin/aarch64-linux-android-",
-                "CROSS_COMPILE": "gcc/bin/aarch64-linux-android-",
+                "CLANG_TRIPLE": "gcc/bin/aarch64-linux-gnu-",
+                "CROSS_COMPILE": "gcc/bin/aarch64-linux-gnu-",
                 "CROSS_COMPILE_ARM32": "gcc/bin/arm-linux-gnueabi-"
                 
             }
