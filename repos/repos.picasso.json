@@ -1,16 +1,16 @@
 [
     {
         "kernelSource": {
-        "name": "Driftwood-2.2.0",
+        "name": "Driftwood-2.1.0",
         "repo": "https://github.com/EndCredits/kernel_xiaomi_sm7250",
-        "branch": "android-4.19-rom",
+        "branch": "android-4.19",
         "device": "picasso",
         "defconfig": "vendor/picasso_user_defconfig"
         },
         "withKernelSU": false,
         "toolchains": [
             {
-                "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784d.tar.gz",
+                "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r450784e.tar.gz",
                 "name": "clang",
                 "binPath": ["./bin"]
             },
@@ -42,14 +42,14 @@
         "kernelSource": {
         "name": "Driftwood-2.2.0-ksu",
         "repo": "https://github.com/EndCredits/kernel_xiaomi_sm7250",
-        "branch": "android-4.19-rom",
+        "branch": "android-4.19",
         "device": "picasso",
         "defconfig": "vendor/picasso_user_defconfig"
         },
         "withKernelSU": true,
         "toolchains": [
             {
-                "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/master-kernel-build-2022/clang-r450784d.tar.gz",
+                "url": "https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/heads/main/clang-r450784e.tar.gz",
                 "name": "clang",
                 "binPath": ["./bin"]
             },
